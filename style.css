@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 52px;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/**                box1              **/
+
+.nav-logo{
+    width: 75px;
+    height: 52px;
+    padding-left: 135px;
+    padding-top: 15px;
+
+}
+
+.logo{
+    height: 20px;
+    background-image: url("logo.png");
+    background-size: cover;
+    
+
+}
+
+.logo-text{
+    display: flex;
+    align-items: center;
+}
+.logo-text a{
+    color: white;
+    font-size: 10px;
+    text-decoration: none;   
+}
+
+.text1{
+    color: white;
+    font-size: 10px;
+    padding-right: 2px;
+}
+
+.text2{
+    color: yellow;
+    font-size: 10px;
+}
+
+/**                  box2           **/
+.box2{
+    display: flex;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+    padding-left: 16px;
+    font-size: 17px;
+}
+
+.search{
+    width:  30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+i{
+    font-size: 20px;
+    color: #2874f0;
+}
+
+/**          box3                  **/
+.box3{
+    background-color: white;
+    color: #2874f0;
+    font-weight: bold;
+    height: 20px;
+    width: 120px;
+    text-align: center;
+}
+.box3:hover{
+    background-color: rgb(244, 199, 86);
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+}
+.box3 a{
+    text-decoration: none;
+}
+.login:hover
+{
+    color: rgb(255, 255, 255)
+}
+
+.box4{
+    color: white;
+    font-weight: bold;
+}
+
+.box5{
+    display: flex;
+}
+.box5 p{
+    color: white;
+    font-weight: bold;
+}
+.box5 i{
+    color: white;
+    padding-left: 3px;
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.box6{
+    display: flex;
+    padding-right: 60px;
+}
+.box6 p{
+    font-weight: bold;
+    color: white;
+    padding-left: 5px;
+}
+
+/**                  top                  **/
+
+.top{
+    height: 103px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 60px 0px 60px;
+    
+
+}
+.box{
+    height: 90px;
+    width: 64px;
+}
+.boxImg{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+}
+.box p{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+}
+ 
+.new:hover{
+    color: blue;
+}
+ 
+
+/**                  hero section              **/
+
+.hero{
+    height: 250px;
+    background-color: rgb(245, 245, 245);
+    border-top: 1px solid rgba(152, 152, 152, 0.382) ;
+}
+.herologo{
+    height: 250px;
+    background-image: url("hero6.jpg");
+    background-size: cover;
+    
+}
+
+/**                       JarBox            **/
+
+.jarBox{
+    height: 870px;
+    background-color: rgb(245, 245, 245) ;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.jar{
+    height: 420px;
+    width: 340px;
+    background-color: white;
+    
+}
+.jarImg{
+    width: 300px;
+    height: 280px;
+    background-size: cover; 
+    margin-bottom: 18px;  
+}
+.jar a{
+    text-decoration: none;
+    color: #007185;
+}
+.jar h2{
+    margin: 20px 15px 15px 15px;
+}
+.content{
+    margin-left: 15px;
+    margin-right: 12px;
+}
+
+/**                content                  **/
+
+.l2r{
+    height: 320px;
+    background-color: rgb(245, 245, 245);
+}
+
+.solidL2r{
+    height: 300px;
+    width: 95.4%;
+    background-color: white;
+    position: relative;
+    margin-left: 40px;
+    
+}
+
+h3{
+   padding-top: 15px;
+   padding-left: 15px;
+}
+
+.solidImg{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.secImg{
+    width: 194px;
+    height: 240px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.secImg:hover{
+    /* width: 195px;
+    height: 242px; */
+    border: 2px solid rgb(72, 7, 21);
+}
+
+/**                             Footer                    **/
+
+.foot1{
+    height: 50px;
+    background-color: rgba(7, 45, 68, 0.736);
+}
+.foot1 p{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.foot2{
+    height: 280px;
+    background-color: #04172d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list{
+    padding-top: 30px;
+}
+.list p{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.list li{
+    list-style: none;
+    color: rgb(178, 181, 178);
+    padding-bottom: 8px;
+    font-size: small;
+}
+
+.footer3{
+    height: 70px;
+    background-color: #131A22;
+    border-top: 1px solid rgb(98, 97, 97);
+    color: rgb(178, 181, 178);
+    font-size: 10px;
+}
+.footer3 p{
+    text-align: center;
+}
+.notice1{
+    padding-top: 20px;
+}
+
+
+/** ---------------------------------Log in Page  ------------------------------------------**/
+
+ 
+  
+.login-container2 {
+    width: 300px;
+    /* margin: 0 auto; */
+    padding: 20px;
+    background-color: #ebe9e9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 40%;
+    margin-top: 15%;
+
+  }
+  
+.loginform2 h2 {
+    text-align: center;
+  }
+  
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+label {
+    display: block;
+    font-weight: bold;
+  }
+  
+#username {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#password{
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+
+/* input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  } */
+  
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4c57af;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+ 
+ 
